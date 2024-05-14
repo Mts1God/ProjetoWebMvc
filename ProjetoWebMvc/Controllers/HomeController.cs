@@ -17,7 +17,8 @@ namespace ProjetoWebMvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "App de vendas web com C# em estrutura MVC";
+            ViewData["Aluno"] = "Mateus F. Ribeiro";
 
             return View();
         }
